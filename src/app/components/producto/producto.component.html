@@ -1,1 +1,16 @@
-<p>producto works!</p>
+<article>
+    <img class="img" [src]="product.imageUrl" [alt]="product.name">
+    <div class="body">
+        <div class="top">
+            <h3 class="title">{{product.name}}</h3>
+            <span class="price">${{product.price}}</span>
+        </div>
+        <p class="meta">{{product.category}}</p>
+        <p class="desc">{{product.description}}</p>
+        <p class="stock" [class.out]="!product.inStock">
+            @if(product.inStock) {En stock}
+            @else {Agotado}
+        </p>
+        div
+    </div>
+</article>
