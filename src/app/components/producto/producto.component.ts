@@ -2,7 +2,7 @@ import { Component, Input } from '@angular/core';
 import {Product} from '../../models/producto.model'
 
 @Component({
-  selector: 'app-producto',
+  selector: 'app-producto-card',
   standalone: true,
   imports: [],
   templateUrl: './producto.component.html',
