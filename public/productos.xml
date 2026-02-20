@@ -1,0 +1,101 @@
+<catalog>
+    <product>
+        <id>1</id>
+        <name>Audifonos</name>
+        <price>599</price>
+        <imageUrl>imagenes/audifonos.jpg</imageUrl>
+        <category>Audio</category>
+        <description>Audífonos inalámbricos</description>
+        <inStock>true</inStock>
+    </product>
+
+    <product>
+        <id>2</id>
+        <name>Mouse Gamer</name>
+        <price>349</price>
+        <imageUrl>imagenes/mouse.jpg</imageUrl>
+        <category>Accesorios</category>
+        <description>Mouse óptico con iluminación RGB</description>
+        <inStock>true</inStock>
+    </product>
+
+    <product>
+        <id>3</id>
+        <name>Teclado Mecánico</name>
+        <price>899</price>
+        <imageUrl>imagenes/teclado.webp</imageUrl>
+        <category>Accesorios</category>
+        <description>Teclado mecánico con switches azules</description>
+        <inStock>true</inStock>
+    </product>
+
+    <product>
+        <id>4</id>
+        <name>Monitor 24 pulgadas</name>
+        <price>3299</price>
+        <imageUrl>imagenes/monitor.jpg</imageUrl>
+        <category>Pantallas</category>
+        <description>Monitor Full HD de 24 pulgadas</description>
+        <inStock>true</inStock>
+    </product>
+
+    <product>
+        <id>5</id>
+        <name>Bocina Bluetooth</name>
+        <price>749</price>
+        <imageUrl>imagenes/bocina.jpg</imageUrl>
+        <category>Audio</category>
+        <description>Bocina portátil con conexión Bluetooth</description>
+        <inStock>false</inStock>
+    </product>
+
+    <product>
+        <id>6</id>
+        <name>Laptop</name>
+        <price>12999</price>
+        <imageUrl>imagenes/laptop.jpg</imageUrl>
+        <category>Computadoras</category>
+        <description>Laptop con procesador Intel Core i5 y 8GB RAM</description>
+        <inStock>true</inStock>
+    </product>
+
+    <product>
+        <id>7</id>
+        <name>Memoria USB 64GB</name>
+        <price>199</price>
+        <imageUrl>imagenes/usb.jpg</imageUrl>
+        <category>Almacenamiento</category>
+        <description>Memoria USB de alta velocidad</description>
+        <inStock>true</inStock>
+    </product>
+
+    <product>
+        <id>8</id>
+        <name>Disco Duro Externo 1TB</name>
+        <price>1199</price>
+        <imageUrl>imagenes/disco.jpg</imageUrl>
+        <category>Almacenamiento</category>
+        <description>Disco duro externo portátil de 1TB</description>
+        <inStock>true</inStock>
+    </product>
+
+    <product>
+        <id>9</id>
+        <name>Webcam HD</name>
+        <price>499</price>
+        <imageUrl>imagenes/webcam.jpg</imageUrl>
+        <category>Video</category>
+        <description>Cámara web con resolución HD 1080p</description>
+        <inStock>false</inStock>
+    </product>
+
+    <product>
+        <id>10</id>
+        <name>Silla Gamer</name>
+        <price>2599</price>
+        <imageUrl>imagenes/silla.jpg</imageUrl>
+        <category>Muebles</category>
+        <description>Silla ergonómica para gaming</description>
+        <inStock>true</inStock>
+    </product>
+</catalog>

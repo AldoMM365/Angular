@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
-import { ProductoCardComponent } from '../producto/producto.component'
+import { Component, inject } from '@angular/core';
+import { ProductoCardComponent } from '../producto/producto.component';
+import { toSignal } from '@angular/core/rxjs-interop';
 import { ProductService } from '../../services/productos.service';
 import { Product } from '../../models/producto.model';
 
@@ -11,8 +12,8 @@ import { Product } from '../../models/producto.model';
   styleUrl: './catalogo.component.css',
 })
 export class Catalogo {
-  products: Product[]=[];
-  constructor(private productService:ProductService){
-    this.products = this.productService.getAll();
-  }
+  productsService = inject(ProductService);
+  products = toSignal<Product[]>(
+    this.productsService.getAll()
+  );
 }
